@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Systemwares - Your Solution for Smart Business Processes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        header a, footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .banner {
+            background-color: #f4f4f4;
+            padding: 2rem;
+            text-align: center;
+        }
+        .features, .products, .about, .contact, .careers {
+            margin-bottom: 2rem;
+        }
+        .product, .feature {
+            margin-bottom: 1.5rem;
+        }
+        .feature img, .product img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Systemwares Logo" style="height: 50px;">
+            <nav>
+                <a href="#home">Homepage</a>
+                <a href="#about">About Us</a>
+                <a href="#products">Products</a>
+                <a href="#contact">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="banner">
+        <h1>Welcome to Systemwares</h1>
+        <p>Your one-stop destination for high-quality, cloud-based software solutions. We specialize in delivering innovative and reliable technology to streamline your business processes and enhance operational efficiency. Optimize your business workflows, incorporate AI technologies into your operations, and allow experts to assist in expanding your business.</p>
+    </div>
+
+    <div class="container">
+        <section id="features" class="features">
+            <h2>Key Features</h2>
+            <div class="feature">
+                <img src="feature1.png" alt="Feature 1">
+                <p>Comprehensive range of intelligent business technology solutions.</p>
+            </div>
+            <div class="feature">
+                <img src="feature2.png" alt="Feature 2">
+                <p>Intuitive interface for seamless browsing and purchasing, with no extra training needed.</p>
+            </div>
+            <div class="feature">
+                <img src="feature3.png" alt="Feature 3">
+                <p>Secure payment gateway for safe transactions.</p>
+            </div>
+            <div class="feature">
+                <img src="feature4.png" alt="Feature 4">
+                <p>Dedicated customer support to assist you every step of the way.</p>
+            </div>
+        </section>
+
+        <section id="products" class="products">
+            <h2>Explore Our Products</h2>
+            
+            <div class="product">
+                <img src="blocs-logo.png" alt="BLOCS Logo">
+                <h3>BLOCS</h3>
+                <p>Empower your construction projects with our comprehensive database platform. Manage projects efficiently, collaborate with team members, and access crucial project data in one centralized location.</p>
+            </div>
+            <div class="product">
+                <img src="blocs-light-logo.png" alt="BLOCS Light Logo">
+                <h3>BLOCS Light</h3>
+                <p>A perfect platform for smaller-scale projects and individual users who require essential project processes’ features.</p>
+            </div>
+            <div class="product">
+                <img src="profi-in-logo.png" alt="Profi.in Logo">
+                <h3>Profi.in</h3>
+                <p>Take your professional networking to the next level with Profi.in. Connect with industry peers, showcase your skills and accomplishments, and explore new career opportunities.</p>
+            </div>
+            <div class="product">
+                <img src="hr-blocs-logo.png" alt="HR BLOCS Logo">
+                <h3>HR BLOCS</h3>
+                <p>HR Blocs is an all-in-one platform designed to streamline and centralize all employee-related processes for companies.</p>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <p>Systemwares is a leading provider of cloud-based solutions designed to streamline and optimize business processes. We specialize in delivering innovative technologies that enhance operational efficiency, drive growth, and empower businesses to achieve their goals. Our comprehensive suite of services includes everything from intelligent business process management to seamless integration of AI technologies. With a focus on user-friendly interfaces and robust functionality, Systemwares is committed to helping businesses of all sizes navigate the complexities of the modern marketplace with ease and confidence.</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or need assistance? Our customer support team is here to help! Contact us via phone, email, or live chat, and we'll be happy to assist you with any inquiries or concerns you may have.</p>
+            <p>Phone: +974 3333 3333</p>
+            <p>Email: <a href="mailto:info@systemwares.com">info@systemwares.com</a></p>
+            <p>Include Live CHAT?</p>
+        </section>
+
+        <section id="careers" class="careers">
+            <h2>Careers</h2>
+            <p>Join Our Team at Systemwares. At Systemwares, we believe that our greatest asset is our people. We’re dedicated to fostering a collaborative, innovative, and inclusive work environment where every team member can thrive. If you're passionate about technology and eager to make an impact, we invite you to explore career opportunities with us.</p>
+            <h3>Why Work with Us?</h3>
+            <ul>
+                <li>Innovative Culture</li>
+                <li>Professional Growth</li>
+                <li>Dynamic Environment</li>
+                <li>Inclusive Workplace</li>
+            </ul>
+            <h3>Current Openings</h3>
+            <ul>
+                <li>Software Development</li>
+                <li>Project Management</li>
+                <li>Sales and Marketing</li>
+                <li>Customer Support</li>
+                <li>Human Resources</li>
+            </ul>
+            <p>How to Apply: If you’re ready to take the next step in your career, we’d love to hear from you! Please submit your resume and a cover letter detailing your experience and why you want to work with us. Send your application to <a href="mailto:careers@systemwares.com">careers@systemwares.com</a>.</p>
+            <p>Our Commitment: At Systemwares, we are committed to building a diverse workforce that reflects the communities we serve. We are an equal opportunity employer and welcome applications from all qualified individuals.</p>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <a href="#terms">Terms and Conditions</a>
+            <a href="#privacy">Privacy Policy</a>
+            <a href="#faq">FAQ</a>
+            <a href="#careers">Careers</a>
+        </div>
+    </footer>
+</body>
+</html>
